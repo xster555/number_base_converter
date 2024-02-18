@@ -2,8 +2,8 @@
 
 本项目使用一块仿 LILYGO T-Display-S3 开发进行开发测试。通过两个按键控制二进制转换十进制。
 
-<img src="./images/img2.jpg" width=300/>
-<img src="./images/img1.jpg" width=300/>
+<img src="./images/img2.jpg" height=180/>
+<img src="./images/img1.jpg" height=180/>
 
 ## 功能特性
 - MCU: ESP32S3

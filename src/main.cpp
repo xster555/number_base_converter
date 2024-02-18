@@ -122,7 +122,6 @@ void downBtnDuringLongPress(void *oneButton)
 {
   downBtnClick();
 }
-
 /***** 按钮事件相关方法（end) *****/
 
 void setup()
@@ -134,6 +133,7 @@ void setup()
   buttonUp.attachDoubleClick(upBtnDoubleClick);
   buttonUp.attachDuringLongPress(upBtnDuringLongPress, &buttonUp);
   buttonUp.setLongPressIntervalMs(LONG_PRESS_INTERVAL);
+
   buttonDown.attachClick(downBtnClick);
   buttonDown.attachDoubleClick(downBtnDoubleClick);
   buttonDown.attachDuringLongPress(downBtnDuringLongPress, &buttonDown);
